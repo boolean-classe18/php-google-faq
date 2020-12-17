@@ -1,0 +1,33 @@
+footer {
+    background-color: $light-bg;
+    padding: $small-spacing 0;
+
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer-left {
+            ul {
+                list-style-type: none;
+
+                li {
+                    display: inline-block;
+                    font-size: 80%;
+
+                    a {
+                        text-decoration: none;
+                        color: lighten($text-color, 30%);
+                    }
+
+                    &:not(:last-child)::after {
+                        content: '‧';
+                        display: inline-block;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

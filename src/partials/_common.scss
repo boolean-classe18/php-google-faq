@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: $text-color;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+h2 {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+p {
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+main {
+    padding: 100px 0;
+}
